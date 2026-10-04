@@ -1,0 +1,580 @@
+{
+  "version": 1,
+  "title": "Journey of Swami Vivekananda — the audio guide",
+  "voice": "Prabhat · Indian English",
+  "voiceId": "en-IN-PrabhatNeural",
+  "disclosure": "Synthesised Indian English narration. An editorial summary of the sourced chronology, not a historical recording of Swamiji.",
+  "chapters": [
+    {
+      "id": "formation",
+      "title": "Roots and awakening",
+      "years": "1863–1887",
+      "segments": [
+        {
+          "event": "birth",
+          "sources": [
+            "birth",
+            "school"
+          ],
+          "text": "Our journey begins in Calcutta, today Kolkata, on 12 January 1863. Narendranath Datta was born to Vishwanath Datta and Bhuvaneshwari Devi. His mother's devotional stories and his father's broad interests helped shape a curious child who loved learning, music and physical exercise.",
+          "start": 0,
+          "end": 25.598
+        },
+        {
+          "event": "raipur",
+          "sources": [
+            "raipur",
+            "presidency",
+            "assembly"
+          ],
+          "text": "After two years with his family in Raipur, Narendra returned to Calcutta. His college education brought him into contact with Western philosophy, while his spiritual questions grew more urgent. He wanted to know whether the divine could be experienced directly.",
+          "start": 25.598,
+          "end": 46.63
+        },
+        {
+          "event": "dak-first",
+          "sources": [
+            "first-meeting",
+            "dak-first"
+          ],
+          "text": "Belur Math places Narendra’s visit to Sri Ramakrishna at Dakshineswar in November 1881. The fuller biography also records an earlier encounter at Surendra Nath Mitra’s house. This guide follows the official month for Dakshineswar, without assigning an exact day. Through repeated visits and questioning, Narendra found his spiritual teacher.",
+          "start": 46.63,
+          "end": 75.707
+        },
+        {
+          "event": "cossipore",
+          "sources": [
+            "degree",
+            "shyampukur",
+            "cossipore",
+            "master-passes"
+          ],
+          "text": "The death of Narendra's father in 1884 brought severe family hardship. Later, at Shyampukur and Cossipore, he and the other young disciples nursed Sri Ramakrishna through illness. When the Master passed away on 16 August 1886, their shared life of service and spiritual practice continued.",
+          "start": 75.707,
+          "end": 101.984
+        },
+        {
+          "event": "antpur",
+          "sources": [
+            "baranagar",
+            "antpur",
+            "sannyasa"
+          ],
+          "text": "The disciples gathered at the first monastery in Baranagar. At Antpur, on 24 December 1886, they strengthened their resolve to embrace renunciation. Formal monastic vows followed in early 1887. The young student was becoming a monk whose classroom would soon be the whole of India.",
+          "start": 101.984,
+          "end": 127.944
+        }
+      ],
+      "audio": "assets/audio/formation.mp3",
+      "duration": 127.944,
+      "scriptSha256": "e85cbe065d0b1fc960361cef8d9bc35f5dd6712b629090ac73cc1d9492c6b525"
+    },
+    {
+      "id": "north",
+      "title": "The wandering monk: northern India",
+      "years": "1888–1891",
+      "segments": [
+        {
+          "event": "benares1",
+          "sources": [
+            "benares1",
+            "ayodhya1",
+            "agra1",
+            "vrindavan"
+          ],
+          "text": "From 1888, the monk travelled through northern India, including Varanasi, Ayodhya, Agra and Vrindavan. Many early stops are documented more securely than their dates. The atlas preserves those broad periods rather than assigning a day to every visit.",
+          "start": 0,
+          "end": 22.622
+        },
+        {
+          "event": "hathras",
+          "sources": [
+            "hathras",
+            "rishikesh1",
+            "meerut"
+          ],
+          "text": "At Hathras he met Sharatchandra Gupta, who became Swami Sadananda. Travels towards the Himalayan foothills brought periods of meditation, illness and care among brother monks. These journeys reveal both the spiritual aspiration and the physical difficulty of his wandering years.",
+          "start": 22.622,
+          "end": 44.796
+        },
+        {
+          "event": "kakrighat",
+          "sources": [
+            "blessing",
+            "bhagalpur",
+            "kakrighat",
+            "almora1"
+          ],
+          "text": "With Holy Mother’s blessing, he set out again in 1890. The journey included Bhagalpur and the Himalayan region around Almora. Belur Math identifies his meditation at Kakrighat in 1890; no exact day is supplied. The disciples’ biography remembers it as an important spiritual experience.",
+          "start": 44.796,
+          "end": 71.739
+        },
+        {
+          "event": "karnaprayag",
+          "sources": [
+            "karnaprayag",
+            "dehradun1",
+            "rishikesh2",
+            "meerut"
+          ],
+          "text": "An intended pilgrimage towards Kedarnath and Badrinath was interrupted; neither shrine is shown as a completed visit. After stays in Dehradun, Rishikesh and other foothill towns, the brotherhood reunited in Meerut. The official account describes their months together, without precise arrival and departure days. He then continued his travels alone.",
+          "start": 71.739,
+          "end": 101.952
+        }
+      ],
+      "audio": "assets/audio/north.mp3",
+      "duration": 101.952,
+      "scriptSha256": "87097231632aacf9c2529617518741ac27aba9558c837161ef9cfdb66220694d"
+    },
+    {
+      "id": "india",
+      "title": "Across western and southern India",
+      "years": "1891–1893",
+      "segments": [
+        {
+          "event": "delhi1",
+          "sources": [
+            "delhi1",
+            "alwar1",
+            "jaipur1",
+            "abu",
+            "khetri1"
+          ],
+          "text": "From Delhi in January 1891, his travels took him through Rajasthan. At Alwar he discussed religion; at Jaipur he pursued Sanskrit study. At Mount Abu he met Ajit Singh, the Maharaja of Khetri, who became an important friend and supporter.",
+          "start": 0,
+          "end": 22.079
+        },
+        {
+          "event": "porbandar",
+          "sources": [
+            "ahmedabad",
+            "junagadh",
+            "somnath",
+            "porbandar",
+            "dwarka"
+          ],
+          "text": "In Gujarat, he encountered scholars, officials, religious communities and sacred sites. Ahmedabad, Junagadh, Somnath, Porbandar and Dwarka belong to this period. At Porbandar, study was a major part of his life. The dates and some sequences of these western travels remain approximate.",
+          "start": 22.079,
+          "end": 48.003
+        },
+        {
+          "event": "pune",
+          "sources": [
+            "bombay1",
+            "pune",
+            "belgaum",
+            "rachol"
+          ],
+          "text": "He moved through Maharashtra and met Bal Gangadhar Tilak in Pune. Belur Math’s memorial history dates his Belgaum stay to 16 through 27 October 1892. Conversations with his hosts entered the biographical record. In Goa, he studied at Rachol Seminary, continuing his dialogue with different religious and intellectual traditions.",
+          "start": 48.003,
+          "end": 77.622
+        },
+        {
+          "event": "kanyakumari",
+          "sources": [
+            "bangalore",
+            "mysore",
+            "trivandrum",
+            "kanyakumari"
+          ],
+          "text": "Bangalore, Mysore and Trivandrum marked stages of the southern journey. At Kanyakumari, he meditated on the offshore rock and reflected on India’s poverty and possibilities for renewal. This guide follows the dates published in Belur Math’s official documentary listing: 24 through 26 December 1892.",
+          "start": 77.622,
+          "end": 103.927
+        },
+        {
+          "event": "madras1",
+          "sources": [
+            "madras1",
+            "hyderabad",
+            "khetri2",
+            "aburoad"
+          ],
+          "text": "In Madras, today Chennai, Alasinga Perumal and other young supporters helped make the Western mission possible. In Hyderabad he spoke on his mission to the West. A further visit to Khetri and a farewell at Abu Road preceded his departure from Bombay.",
+          "start": 103.927,
+          "end": 124.632
+        }
+      ],
+      "audio": "assets/audio/india.mp3",
+      "duration": 124.632,
+      "scriptSha256": "6fa0208d8de6b7b77def15216b1f5aa9efa6475aecc5ba67d25ff472db83852a"
+    },
+    {
+      "id": "outbound",
+      "title": "To Chicago: the first crossing",
+      "years": "1893",
+      "segments": [
+        {
+          "event": "sail1893",
+          "sources": [
+            "sail1893",
+            "colombo93",
+            "penang93",
+            "singapore93"
+          ],
+          "text": "On 31 May 1893, Vivekananda sailed from Bombay, today Mumbai, aboard the Peninsular. The Asian journey included Colombo, Penang and Singapore. These confirmed stops are connected schematically on the map; the line does not reproduce the ship's exact sea lane.",
+          "start": 0,
+          "end": 23.533
+        },
+        {
+          "event": "yokohama93",
+          "sources": [
+            "hongkong93",
+            "canton93",
+            "kobe93",
+            "osaka93",
+            "kyoto93",
+            "tokyo93",
+            "yokohama93"
+          ],
+          "text": "After Hong Kong and an excursion to Canton, he travelled through Japan, including Kobe, Osaka, Kyoto and Tokyo. A letter written at Yokohama on 10 July 1893 describes the Asian stops in his own words. This dated letter is a key source for the journey.",
+          "start": 23.533,
+          "end": 46.916
+        },
+        {
+          "event": "vancouver93",
+          "sources": [
+            "victoria93",
+            "vancouver93",
+            "winnipeg93",
+            "stpaul93"
+          ],
+          "text": "The Empress of India brought him across the Pacific. On 25 July, the chronology records a quarantine stop at Victoria and arrival at Vancouver. He then travelled by rail, through Winnipeg and a transfer at Saint Paul, towards Chicago.",
+          "start": 46.916,
+          "end": 67.962
+        },
+        {
+          "event": "chicago-arrive",
+          "sources": [
+            "chicago-arrive",
+            "metcalf",
+            "annisquam"
+          ],
+          "text": "He first reached Chicago on 30 July 1893. The Parliament had not yet begun, and practical difficulties remained. In Massachusetts, hospitality from Kate Sanborn and his meeting with Professor John Henry Wright helped him prepare for the gathering that would make him widely known.",
+          "start": 67.962,
+          "end": 91.8
+        }
+      ],
+      "audio": "assets/audio/outbound.mp3",
+      "duration": 91.8
+    },
+    {
+      "id": "west",
+      "title": "Teaching in America and Europe",
+      "years": "1893–1896",
+      "segments": [
+        {
+          "event": "parliament",
+          "sources": [
+            "parliament",
+            "paper-hinduism",
+            "parliament-close"
+          ],
+          "text": "On 11 September 1893, at the World's Parliament of Religions in Chicago, he began with the words, Sisters and Brothers of America. His addresses presented Hindu thought to an international audience and argued for religious fellowship. Further addresses followed during the Parliament, which closed on 27 September.",
+          "start": 0,
+          "end": 27.663
+        },
+        {
+          "event": "ny-classes",
+          "sources": [
+            "detroit1",
+            "newyork94",
+            "greenacre",
+            "ny-classes"
+          ],
+          "text": "The years that followed involved public lectures, travel, friendships and sustained teaching. Detroit, Boston, New York and Greenacre were among the centres of this work. In New York, regular classes allowed students to study Vedanta and yoga beyond the excitement of a single public speech.",
+          "start": 27.663,
+          "end": 51.997
+        },
+        {
+          "event": "thousand95",
+          "sources": [
+            "thousand95",
+            "newyork95"
+          ],
+          "text": "At Thousand Island Park in the summer of 1895, he taught a small group at Elizabeth Dutcher's cottage. Notes from this retreat became Inspired Talks. Later, J. J. Goodwin's recording of lectures helped preserve teachings that would enter the published Complete Works.",
+          "start": 51.997,
+          "end": 75.734
+        },
+        {
+          "event": "london95",
+          "sources": [
+            "paris95",
+            "reading95",
+            "london95",
+            "london96",
+            "oxford96"
+          ],
+          "text": "In England he held lectures and classes. Margaret Noble, later Sister Nivedita, first heard him in London in 1895. Captain and Mrs. Sevier became supporters during the following year. On 28 May 1896, he met Max Müller at Oxford and discussed Sri Ramakrishna.",
+          "start": 75.734,
+          "end": 102.391
+        },
+        {
+          "event": "kiel96",
+          "sources": [
+            "geneva96",
+            "saasfee96",
+            "kiel96",
+            "london-practical"
+          ],
+          "text": "Travels through continental Europe included Switzerland and Germany. In Kiel, on 9 September 1896, he met the Sanskrit scholar and philosopher Paul Deussen. Returning to London, he developed his teaching of Practical Vedanta: spiritual ideas expressed in the responsibilities of everyday life.",
+          "start": 102.391,
+          "end": 127.584
+        }
+      ],
+      "audio": "assets/audio/west.mp3",
+      "duration": 127.584
+    },
+    {
+      "id": "homecoming",
+      "title": "The homecoming",
+      "years": "1896–1897",
+      "segments": [
+        {
+          "event": "naples96",
+          "sources": [
+            "milan96",
+            "florence96",
+            "rome96",
+            "naples96"
+          ],
+          "text": "The homeward journey took him through Italy, including Milan, Florence and Rome. On 30 December 1896, he sailed from Naples towards India. His years abroad had brought new disciples and friends, and a wider audience for his teaching.",
+          "start": 0,
+          "end": 21.562
+        },
+        {
+          "event": "colombo97",
+          "sources": [
+            "colombo97",
+            "kandy97",
+            "anuradhapura97",
+            "jaffna97"
+          ],
+          "text": "He arrived in Colombo on 15 January 1897 to an enthusiastic welcome. Travelling through Ceylon, now Sri Lanka, he visited Kandy, Anuradhapura and Jaffna. His return became a succession of receptions and addresses, calling for renewed confidence and active service.",
+          "start": 21.562,
+          "end": 46.277
+        },
+        {
+          "event": "pamban97",
+          "sources": [
+            "pamban97",
+            "rameswaram97",
+            "ramnad97",
+            "kumbakonam97"
+          ],
+          "text": "On 26 January he landed at Pamban. At Rameswaram, his message joined worship with service to people in need. Receptions continued through Ramnad and other southern towns, including Kumbakonam. The journey gave Indian audiences an opportunity to hear the monk who had spoken in Chicago.",
+          "start": 46.277,
+          "end": 71.128
+        },
+        {
+          "event": "calcutta97",
+          "sources": [
+            "madras97",
+            "calcutta97",
+            "sobhabazar97"
+          ],
+          "text": "Madras welcomed him between 6 and 15 February 1897. On 19 February, he returned to Calcutta, the city of his childhood and spiritual training. A civic reception followed. His next task was to turn the response to his message into continuing educational, spiritual and service work.",
+          "start": 71.128,
+          "end": 97.944
+        }
+      ],
+      "audio": "assets/audio/homecoming.mp3",
+      "duration": 97.944
+    },
+    {
+      "id": "work",
+      "title": "Service, disciples and the Math",
+      "years": "1897–1899",
+      "segments": [
+        {
+          "event": "mission",
+          "sources": [
+            "mission"
+          ],
+          "text": "On 1 May 1897, at Balaram Bose's house in Calcutta, he founded the Ramakrishna Mission with monastic and lay devotees. The organisation brought spiritual teaching and service into a shared programme. This was a lasting institutional expression of the work he had urged during his travels.",
+          "start": 0,
+          "end": 25.109
+        },
+        {
+          "event": "srinagar97",
+          "sources": [
+            "almora97",
+            "srinagar97",
+            "jammu97",
+            "lahore97"
+          ],
+          "text": "His northern tour included Almora, Kashmir, Jammu and Punjab. Lectures and personal meetings carried his teaching to new audiences. Some places on this route, including Lahore, are now in Pakistan; the country filter uses present-day geography while the story remains set in British India.",
+          "start": 25.109,
+          "end": 49.239
+        },
+        {
+          "event": "plague98",
+          "sources": [
+            "nivedita98",
+            "plague98",
+            "almora98"
+          ],
+          "text": "On 25 March 1898, Margaret Noble received the name Nivedita. In May, the response to plague in Calcutta placed service at the centre of the movement's work. Later, travelling with Western disciples through the Himalayas became an opportunity for teaching and an encounter with Indian life.",
+          "start": 49.239,
+          "end": 75.027
+        },
+        {
+          "event": "amarnath98",
+          "sources": [
+            "srinagar98",
+            "amarnath98",
+            "kshir98"
+          ],
+          "text": "In Kashmir in 1898, he travelled with disciples and undertook pilgrimages. The Amarnath visit is recorded on 2 August. His stay at Kshir Bhavani followed from 30 September to 6 October. Spiritual experiences associated with these visits are presented as the biographical tradition reports them.",
+          "start": 75.027,
+          "end": 102.391
+        },
+        {
+          "event": "consecration98",
+          "sources": [
+            "school98",
+            "consecration98",
+            "belur99"
+          ],
+          "text": "On 13 November, Sri Sarada Devi inaugurated Nivedita's girls' school in Calcutta. On 9 December, Vivekananda consecrated the monastery site at Belur. The present Sri Ramakrishna temple was built later. Belur became the enduring home of the monastic Order as he prepared for another Western journey.",
+          "start": 102.391,
+          "end": 128.808
+        }
+      ],
+      "audio": "assets/audio/work.mp3",
+      "duration": 128.808
+    },
+    {
+      "id": "second",
+      "title": "The second Western journey",
+      "years": "1899–1900",
+      "segments": [
+        {
+          "event": "sail1899",
+          "sources": [
+            "sail1899",
+            "madras99",
+            "colombo99",
+            "london99"
+          ],
+          "text": "On 20 June 1899, he left Calcutta aboard the Golconda with Swami Turiyananda and Sister Nivedita. The voyage called at Madras, but he was prevented from landing there. After Colombo and further port calls, he reached England on 31 July.",
+          "start": 0,
+          "end": 22.867
+        },
+        {
+          "event": "ridgely99",
+          "sources": [
+            "newyork99",
+            "ridgely99",
+            "la99"
+          ],
+          "text": "Back in America on 28 August, he spent a long period at Ridgely, the home of the Leggetts, before travelling west. In Los Angeles, teaching resumed in December 1899. The second journey strengthened friendships and extended the Vedanta work begun during his first visit.",
+          "start": 22.867,
+          "end": 47.12
+        },
+        {
+          "event": "sanfrancisco",
+          "sources": [
+            "pasadena",
+            "oakland",
+            "sanfrancisco",
+            "alameda",
+            "camptaylor"
+          ],
+          "text": "Pasadena, Oakland and San Francisco became important centres of his California teaching in 1900. Periods at Alameda and Camp Taylor also offered reflection and rest. Lectures, smaller classes and the dedication of local students helped establish a continuing presence for Vedanta on the Pacific coast.",
+          "start": 47.12,
+          "end": 73.315
+        },
+        {
+          "event": "congress00",
+          "sources": [
+            "newyork00",
+            "paris00",
+            "congress00",
+            "brittany00"
+          ],
+          "text": "After returning east, he travelled to Paris for the Exposition and the Congress of the History of Religions. His contribution to the congress is recorded on 7 September 1900. This scholarly gathering was distinct from the Parliament of Religions held in Chicago seven years earlier.",
+          "start": 73.315,
+          "end": 96.821
+        },
+        {
+          "event": "cairo00",
+          "sources": [
+            "vienna00",
+            "istanbul00",
+            "athens00",
+            "cairo00"
+          ],
+          "text": "The journey home passed through Vienna, Constantinople, today Istanbul, Athens and Cairo. These visits brought further encounters with history, art and different religious traditions. From Egypt he returned to India, bringing the second Western journey to its close.",
+          "start": 96.821,
+          "end": 118.8
+        }
+      ],
+      "audio": "assets/audio/second.mp3",
+      "duration": 118.8
+    },
+    {
+      "id": "final",
+      "title": "The final years",
+      "years": "1900–1902",
+      "segments": [
+        {
+          "event": "belur-return00",
+          "sources": [
+            "bombay00",
+            "belur-return00",
+            "mayavati01"
+          ],
+          "text": "On 9 December 1900, he returned unexpectedly to Belur Math. In January 1901, he visited Advaita Ashrama at Mayavati in the Himalayas, meeting Charlotte Sevier and the community. Discussion, writing and the ashrama's commitment to non-dualistic study occupied this visit.",
+          "start": 0,
+          "end": 24.565
+        },
+        {
+          "event": "dhaka01",
+          "sources": [
+            "narayanganj01",
+            "dhaka01",
+            "langalbandh01",
+            "kamakhya01",
+            "shillong01"
+          ],
+          "text": "In the spring of 1901, he travelled to eastern Bengal and Assam and arranged a pilgrimage with his mother. Dacca, now Dhaka, Langalbandh, Kamakhya and Shillong formed part of this final public tour. Family duty and teaching continued even as his health became more difficult.",
+          "start": 24.565,
+          "end": 49.022
+        },
+        {
+          "event": "bodhgaya02",
+          "sources": [
+            "durga01",
+            "bodhgaya02",
+            "varanasi02"
+          ],
+          "text": "Back at Belur, monastic life and the Durga Puja of 1901 remained part of his work. In January 1902 he revisited Buddha Gaya with Japanese visitors, including Okakura Kakuzō. A final stay in Varanasi followed. These were his last major journeys beyond the Math.",
+          "start": 49.022,
+          "end": 74.62
+        },
+        {
+          "event": "nivedita-last",
+          "sources": [
+            "belur02",
+            "nivedita-last"
+          ],
+          "text": "During the following months at Belur, he continued to teach and guide the brotherhood. The biography records a meal he served to Nivedita on 2 July. The remembered act of personal service became especially poignant because it took place so near the end of his life.",
+          "start": 74.62,
+          "end": 96.685
+        },
+        {
+          "event": "mahasamadhi",
+          "sources": [
+            "mahasamadhi"
+          ],
+          "text": "On 4 July 1902, after a day that included meditation, a Sanskrit class and a walk with Swami Premananda, he passed away at Belur Math. He was thirty-nine. The Order remembers his passing as Mahasamadhi. The journey had ended, while the institutions, teachings and service he inspired continued.",
+          "start": 96.685,
+          "end": 124.2
+        }
+      ],
+      "audio": "assets/audio/final.mp3",
+      "duration": 124.2
+    }
+  ],
+  "totalDuration": 1043.664
+}

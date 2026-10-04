@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Journey of Swami Vivekananda</title>
+  <meta name="description" content="Explore Swami Vivekananda’s life and travels, 1863–1902, through a sourced global map, linked timeline, letters and historical photographs.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23ae4b20'/%3E%3Ccircle cx='16' cy='16' r='10' fill='none' stroke='%23fff6e4' stroke-width='1.5'/%3E%3Cpath d='M12 21l4-14 4 14-4-3z' fill='%23fff6e4'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/leaflet.css"><link rel="stylesheet" href="assets/cluster.css"><link rel="stylesheet" href="style.css">
+  <script src="assets/leaflet.js" defer></script><script src="assets/cluster.js" defer></script><script src="app.js" defer></script><script src="narration.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#explore">Skip to the explorer</a>
+  <header class="header">
+    <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true">V</span><span>Vivekananda<span class="brand-sub">JOURNEY OF SWAMI</span></span></a>
+    <nav aria-label="Main navigation"><a class="nav-active" href="index.html" aria-current="page">Explore the atlas</a><a href="sources.html">Sources & method</a></nav>
+    <span class="header-dates">12 JAN 1863 <span>—</span> 4 JUL 1902</span>
+  </header>
+  <main id="explore">
+    <section class="intro" aria-labelledby="title"><div><p class="eyebrow">A WANDERING MONK. A WORLDWIDE MISSION.</p><h1 id="title">Journey of Swami Vivekananda<span class="title-dot">.</span></h1><p>Follow Swami Vivekananda through the places that shaped his life.</p><button id="open-audio-guide" class="intro-audio" aria-controls="audio-guide">♫ Listen to the journey <span>Indian English audio guide</span></button></div><div class="intro-facts"><span><strong id="event-total">257</strong>sourced events</span><span><strong id="place-total">184</strong>places</span><span><strong>1863–1902</strong>a lifetime</span></div></section>
+    <section class="filters" aria-label="Explore and filter events">
+      <label class="search-field"><span class="sr-only">Search place or event</span><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"></circle><path d="m16 16 5 5"></path></svg><input id="search" type="search" placeholder="Search a place, event or person…" autocomplete="off"></label>
+      <label><span>Journey</span><select id="journey"><option value="">All journeys</option></select></label>
+      <label><span>Year</span><select id="year"><option value="">All years</option></select></label>
+      <label><span>Country today</span><select id="country"><option value="">All countries</option></select></label>
+      <label><span>Life phase</span><select id="phase"><option value="">All phases</option></select></label>
+      <button id="reset" class="reset" title="Clear filters">Reset</button>
+    </section>
+    <div class="results-row"><p id="results" aria-live="polite">Loading the sourced atlas…</p><p>Official Indian outline · historical names <a href="sources.html#method">How to read this atlas</a></p></div>
+    <section class="workspace" aria-label="Map and selected event">
+      <div class="map-shell">
+        <div id="map" aria-label="Interactive map of Swami Vivekananda’s life and travels"></div>
+        <div class="map-views" role="group" aria-label="Map view"><button id="global-view" class="active">World</button><button id="india-view">India</button><button id="journey-view">Fit results</button></div>
+        <label class="route-toggle"><input id="show-routes" type="checkbox" checked>Journey lines</label>
+        <div id="map-message" class="map-message" hidden></div>
+        <div class="map-caption"><span class="compass" aria-hidden="true">N<span>↑</span></span><span>Every line is schematic.<br>Click a place or a connection to explore.</span></div>
+        <div class="route-key"><span><i class="solid-line"></i>Documented stop order</span><span><i class="dashed-line"></i>Illustrative connection</span><button id="legend-button" aria-expanded="false" aria-controls="journey-legend">Journey colours</button><div id="journey-legend" hidden></div></div>
+      </div>
+      <aside class="detail" aria-label="Event details"><div id="detail-content"><div class="loading">Opening the chronology…</div></div></aside>
+    </section>
+    <details id="audio-guide" class="audio-guide">
+      <summary><span class="audio-summary-title"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 14v-3a8 8 0 0 1 16 0v3M4 13H2v7h4v-7H4Zm16 0h2v7h-4v-7h2Z"/></svg>Listen to the journey</span><span class="audio-summary-meta">Indian English · 9 chapters <span aria-hidden="true">⌄</span></span></summary>
+      <div class="audio-guide-body">
+        <div class="audio-controls">
+          <p class="eyebrow">THE AUDIO GUIDE</p><h2>A life, in words</h2>
+          <p class="audio-intro">Listen from the beginning or choose a chapter. Read along and follow the places on the map.</p>
+          <label class="audio-chapter-label" for="audio-chapter">Choose a chapter</label><select id="audio-chapter" disabled><option>Opening the audio guide…</option></select>
+          <p id="audio-chapter-meta" class="audio-meta"></p>
+          <audio id="audio-player" controls preload="metadata" aria-label="Indian English journey narration"></audio>
+          <div class="audio-transport"><button id="audio-prev" aria-label="Previous audio chapter" disabled>‹ Previous</button><label><span class="sr-only">Narration speed</span><select id="audio-rate" aria-label="Narration speed"><option value="0.75">0.75×</option><option value="1" selected>1× speed</option><option value="1.25">1.25×</option><option value="1.5">1.5×</option></select></label><button id="audio-next" aria-label="Next audio chapter" disabled>Next ›</button></div>
+          <label class="audio-option"><input id="audio-follow" type="checkbox" checked><span>Follow stops on the map<small>Shows the narrated stops for this chapter.</small></span></label>
+          <label class="audio-option"><input id="audio-continue" type="checkbox" checked>Continue to the next chapter</label>
+          <button id="audio-current" class="audio-current" disabled>Listen to the selected event’s chapter</button>
+          <p id="audio-status" class="audio-status" role="status" aria-live="polite">Opening the audio guide…</p>
+          <p id="audio-disclosure" class="audio-disclosure">Synthesised Indian English narration; not a historical recording.</p>
+          <a class="audio-download" href="narration-transcript.txt" download>Download the complete transcript</a>
+        </div>
+        <div class="audio-transcript-wrap"><div class="audio-transcript-heading"><h3 id="audio-transcript-title">Read along</h3><span id="audio-duration"></span></div><div id="audio-transcript" class="audio-transcript" aria-labelledby="audio-transcript-title"><p>The transcript will appear here.</p></div><p class="audio-transcript-note">Select a timestamp to hear that passage. Each passage links back to the historical events and their sources. <a href="sources.html#audio">About the narration</a></p></div>
+      </div>
+    </details>
+    <section class="timeline" aria-label="Chronological timeline">
+      <div class="timeline-heading"><div><p class="eyebrow">THE CHRONOLOGY</p><h2 id="timeline-title">One life, many crossings</h2></div><div class="playback"><button id="restart" class="icon-button" title="Restart at the first filtered event" aria-label="Restart journey">↺</button><button id="play" class="play-button" aria-label="Play journey">▶ <span>Play journey</span></button><label><span class="sr-only">Playback speed</span><select id="speed" aria-label="Playback speed"><option value="1">1× speed</option><option value="2">2× speed</option><option value="4">4× speed</option><option value="0.5">½× speed</option></select></label><span class="playback-note">One event at a time</span></div></div>
+      <div class="year-track"><span>1863</span><div id="year-ruler" aria-label="Jump to a year"></div><span>1902</span></div>
+      <div class="timeline-bottom"><button id="prev" class="event-step" aria-label="Previous event" title="Previous event">‹</button><div id="event-track" class="event-track" role="group" aria-label="Events in chronological order"></div><button id="next" class="event-step" aria-label="Next event" title="Next event">›</button></div>
+      <div class="timeline-footer"><span id="position"></span><span>Dates retain the precision of the evidence. <a href="sources.html#method">Read the method</a></span></div>
+    </section>
+    <footer class="footer"><span>An independent educational atlas · <a href="sources.html">Primary texts, references & image credits</a></span><span id="coverage-link">Principal documented journeys · researched October 2026</span></footer>
+    <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+  </main>
+  <noscript><p class="noscript">Enable JavaScript to explore the map. The <a href="sources.html">sources and method</a> remain available.</p></noscript>
+</body>
+</html>
