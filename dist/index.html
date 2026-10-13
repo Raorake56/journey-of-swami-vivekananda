@@ -63,9 +63,17 @@
       <div class="timeline-bottom"><button id="prev" class="event-step" aria-label="Previous event" title="Previous event">‹</button><div id="event-track" class="event-track" role="group" aria-label="Events in chronological order"></div><button id="next" class="event-step" aria-label="Next event" title="Next event">›</button></div>
       <div class="timeline-footer"><span id="position"></span><span>Dates retain the precision of the evidence. <a href="sources.html#method">Read the method</a></span></div>
     </section>
-    <footer class="footer"><span>An independent educational atlas · <a href="sources.html">Primary texts, references & image credits</a></span><span id="coverage-link">Principal documented journeys · researched October 2026</span></footer>
+    <footer class="footer"><span>An independent educational atlas · <a href="sources.html">Primary texts, references & image credits</a> · <button id="restart-tour" class="footer-tour">Show website guide</button></span><span id="coverage-link">Principal documented journeys · researched October 2026</span></footer>
     <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
   </main>
+  <div id="site-tour" class="site-tour" role="dialog" aria-modal="true" aria-labelledby="tour-title" hidden>
+    <div class="tour-card">
+      <p id="tour-step" class="tour-step"></p>
+      <h2 id="tour-title"></h2>
+      <p id="tour-copy"></p>
+      <div class="tour-actions"><button id="tour-skip" class="tour-skip">Skip guide</button><button id="tour-next" class="tour-next">Next</button></div>
+    </div>
+  </div>
   <noscript><p class="noscript">Enable JavaScript to explore the map. The <a href="sources.html">sources and method</a> remain available.</p></noscript>
 </body>
 </html>
